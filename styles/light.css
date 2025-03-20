@@ -1,34 +1,36 @@
-/*
-  Специально для светлой темы при наличии класса.
-  Здесь окажутся стили, которые нужно переопределить принудительно,
-  переключая тему
-*/
-
 :root.theme-light {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
   --main-bg-image: url("../images/cover-image-light.png");
   --main-theme-color: #353430;
   --accent-color: #ff8dcb;
   --slogan-color: #ffc2e6;
   --slogan-shadow-color: #ff8dcb;
-  --footer-slogan-shadow-color: #ff0070;
   --main-bg-color: #fff1f7;
   --text-bg-color: #ff8dcb;
   --main-elements-color: var(--main-theme-color);
   --text-color: var(--main-theme-color);
   --hover-color: 1px solid rgba(50, 49, 45, 0.4);
-  --button-focus-visible: #353430;
+  --link-focus: #353430;
 }
-
 .theme-light .page .header__inscription {
+  display: none;
+}
+.theme-auto .page .header__inscription {
   display: none;
 }
 
 @media (prefers-color-scheme: light) {
   :root {
-    --main-bg-image: url("../images/cover-image-dark.png");
+    /* Дублируем переменные светлой темы */
+    --main-bg-image: url("../images/cover-image-light.png");
+    --main-theme-color: #353430;
+    --accent-color: #ff8dcb;
+    --slogan-color: #ffc2e6;
+    --slogan-shadow-color: #ff8dcb;
+    --main-bg-color: #fff1f7;
+    --text-bg-color: #ff8dcb;
+    --main-elements-color: var(--main-theme-color);
+    --text-color: var(--main-theme-color);
+    --hover-color: 1px solid rgba(50, 49, 45, 0.4);
+    --link-focus: #353430;
   }
 }
