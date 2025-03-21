@@ -11,12 +11,10 @@
   --decor-color: var(--main-elements-color);
   --link-focus: #f1b2ce;
   --hover-color: 1px solid rgba(255, 0, 112, 0.4);
-  --button-focus:#ff0070;
-  
+  --button-focus: #ff0070;
 }
 .theme-dark .page {
   /* Вам также нужно будет написать ряд подобных селекторов */
   --header-bg-image: url(../images/cover-image-dark.png);
   --page-bg-color: #000028;
-  
 }

@@ -9,9 +9,8 @@
   --main-elements-color: var(--main-theme-color);
   --text-color: var(--main-theme-color);
   --hover-color: 1px solid rgba(50, 49, 45, 0.4);
-  --button-focus:#353430;
+  --button-focus: #353430;
   --link-focus: #353430;
-  
 }
 
 .theme-light .header__inscription {
@@ -31,17 +30,13 @@
     --main-elements-color: var(--main-theme-color);
     --text-color: var(--main-theme-color);
     --hover-color: 1px solid rgba(50, 49, 45, 0.4);
-    --button-focus:#353430;
+    --button-focus: #353430;
     --link-focus: #353430;
-    
   }
-  .header__inscription {
+.header__inscription {
     display: none;
   }
-
 }
 .theme-dark .header__inscription {
   display: flex;
 }
-
- 
