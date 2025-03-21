@@ -95,13 +95,12 @@
   outline: none;
 }
 .header__theme-menu-button:focus-visible {
-  border-bottom: 1px solid var(--main-theme-color);
+  border-bottom: 1px solid var(--button-focus);
 }
 
 .text-link {
   color: var(--text-color);
   text-decoration: none;
-
   text-shadow: 2px 2px 0px var(--text-bg-color);
 }
 

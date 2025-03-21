@@ -9,12 +9,12 @@
   --main-elements-color: var(--main-theme-color);
   --text-color: var(--main-theme-color);
   --hover-color: 1px solid rgba(50, 49, 45, 0.4);
+  --button-focus:#353430;
   --link-focus: #353430;
+  
 }
-.theme-light .page .header__inscription {
-  display: none;
-}
-.theme-auto .page .header__inscription {
+
+.theme-light .header__inscription {
   display: none;
 }
 
@@ -31,6 +31,17 @@
     --main-elements-color: var(--main-theme-color);
     --text-color: var(--main-theme-color);
     --hover-color: 1px solid rgba(50, 49, 45, 0.4);
+    --button-focus:#353430;
     --link-focus: #353430;
+    
   }
+  .header__inscription {
+    display: none;
+  }
+
 }
+.theme-dark .header__inscription {
+  display: flex;
+}
+
+ 

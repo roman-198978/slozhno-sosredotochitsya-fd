@@ -18,9 +18,10 @@
   --text-color: #f1b2ce;
   --inscription-color: var(--main-elements-color);
   --hover-color: 1px solid rgba(255, 0, 112, 0.4);
-  --button-focus-visible: #ff0070;
+  --button-focus: #ff0070;
   --link-focus: #f1b2ce;
 }
+
 @media (375px <= width < 768px) {
   :root {
     --screen-padding: 10px;
